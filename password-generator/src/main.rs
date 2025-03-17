@@ -70,8 +70,8 @@ fn main() {
     for _ in 0..nb_password {
         let password: String = (0..length)
             .map(|_| {
-                let idx = rng.random_range(0..chars.len());
-                chars.chars().nth(idx).unwrap()
+                let index = rng.random_range(0..chars.len());
+                chars.chars().nth(index).unwrap()
             })
             .collect();
 

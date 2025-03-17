@@ -1,0 +1,9 @@
+[package]
+name = "keylogger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+input = "0.9.1"
+libc = "0.2.170"
+nix = "0.29.0"
