@@ -1,0 +1,15 @@
+[package]
+name = "wikicrawler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.31"
+percent-encoding = "2.3.1"
+reqwest = "0.12.15"
+rocksdb = "0.23.0"
+#rocksdb = "0.23.0"
+scraper = "0.23.1"
+serde = "1.0.219"
+tokio = { version = "1.44.2", features = ["macros", "rt-multi-thread"] }
+url = "2.5.4"
